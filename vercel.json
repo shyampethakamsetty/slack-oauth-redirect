@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/slack_oauth_redirect.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/slack_oauth_redirect", "dest": "/api/slack_oauth_redirect.js" }
+  ]
+} 
